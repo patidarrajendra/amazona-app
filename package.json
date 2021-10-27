@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "react-router-dom": "^5.3.0"
+  },
+  "name": "amazona-app",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patidarrajendra/amazona-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patidarrajendra/amazona-app/issues"
+  },
+  "homepage": "https://github.com/patidarrajendra/amazona-app#readme",
+  "description": ""
+}
